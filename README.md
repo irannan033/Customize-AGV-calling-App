@@ -21,7 +21,7 @@ The RCS then assigns the task to an available AGV and manages the transportation
 ## Author
 
 Developed as an industrial automation and AGV integration project.
-Itmam Rubayet Annan
+"Itmam Rubayet Annan"
 Senior Robotics and Automation Engineer
 Industrial Engineering Department
 Crystal International group
@@ -62,11 +62,11 @@ Crystal International group
 
 The application acts as an operator interface between the shop floor and the Robotic Control System.
 
-┌─────────────────────┐
-│   Operator / User   │
-└──────────┬──────────┘
-           │
-           ▼
+  ┌─────────────────────┐
+  │   Operator / User   │
+  └──────────┬──────────┘
+             │
+             ▼
 ┌─────────────────────────────┐
 │      AGV Calling App        │
 │      MIT App Inventor       │
@@ -108,16 +108,16 @@ The application acts as an operator interface between the shop floor and the Rob
 
 The basic workflow of the application is:
 
-Operator opens the AGV Calling App.
-Operator selects the required transportation route.
-The application prepares the corresponding AGV task.
-Task information is converted into the required API/JSON format.
-The application sends the task request to the RCS using a REST API.
-RCS validates and processes the request.
-An available AGV is assigned to the task.
-AGV travels to the designated loading location.
-Material is transported to the designated unloading location.
-Task status/response is returned to the application.
+- Operator opens the AGV Calling App.
+- Operator selects the required transportation route.
+- The application prepares the corresponding AGV task.
+- Task information is converted into the required API/JSON format.
+- The application sends the task request to the RCS using a REST API.
+- RCS validates and processes the request.
+- An available AGV is assigned to the task.
+- AGV travels to the designated loading location.
+- Material is transported to the designated unloading location.
+- Task status/response is returned to the application.
 
 ---
 
