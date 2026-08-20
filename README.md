@@ -21,9 +21,13 @@ The RCS then assigns the task to an available AGV and manages the transportation
 ## Author
 
 Developed as an industrial automation and AGV integration project.
+
 "Itmam Rubayet Annan"
+
 Senior Robotics and Automation Engineer
+
 Industrial Engineering Department
+
 Crystal International group
 
 ---
