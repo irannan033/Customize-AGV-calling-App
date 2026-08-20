@@ -1,4 +1,4 @@
-# AGV Calling App – MIT App Inventor
+# **AGV Calling App – MIT App Inventor**
 
 A no-code AGV task-calling application developed using MIT App Inventor, REST APIs, and block-based programming logic to schedule and control material transportation tasks through a Robotic Control System (RCS).
 
@@ -6,7 +6,7 @@ The application provides a simple interface for operators to request AGV transpo
 
 ---
 
-## Overview
+## **Overview**
 
 In garment manufacturing environments, material transportation between workstations and unloading areas is often dependent on manual trolley movement and operator coordination.
 
@@ -18,21 +18,18 @@ The RCS then assigns the task to an available AGV and manages the transportation
 
 ---
 
-## Author
+## **Author**
 
 Developed as an industrial automation and AGV integration project.
 
-"Itmam Rubayet Annan"
-
-Senior Robotics and Automation Engineer
-
-Industrial Engineering Department
-
+**Itmam Rubayet Annan** <br>
+Senior Robotics and Automation Engineer <br>
+Industrial Engineering Department <br>
 Crystal International group
 
 ---
 
-## Key Features
+## **Key Features**
 
 - Create AGV transportation tasks from a mobile/tablet interface
 - Select predefined loading and unloading locations
@@ -47,7 +44,7 @@ Crystal International group
 
 ---
 
-## Technology Stack
+## **Technology Stack**
 
 | Component | Technology |
 |---|---|
@@ -62,7 +59,7 @@ Crystal International group
 
 ---
 
-## System Architecture
+## **System Architecture**
 
 The application acts as an operator interface between the shop floor and the Robotic Control System.
 
@@ -108,7 +105,7 @@ The application acts as an operator interface between the shop floor and the Rob
 
 ---
 
-## Application Workflow
+## **Application Workflow**
 
 The basic workflow of the application is:
 
@@ -125,20 +122,20 @@ The basic workflow of the application is:
 
 ---
 
-## Task Logic
+## **Task Logic**
 
 
 ---
 
 
-## User Interface
+## **User Interface**
 
 
 
 
 ---
 
-## REST API Communication
+## **REST API Communication**
 
 The application uses MIT App Inventor's Web component to communicate with the RCS through REST APIs.
 
@@ -164,7 +161,7 @@ MIT App Inventor App
 
 ---
 
-## Industrial Application
+## **Industrial Application**
 
 Potential applications include:
 
@@ -179,7 +176,7 @@ Potential applications include:
 
 ---
 
-## Benefits
+## **Benefits**
 
 - Reduces dependency on manual transportation requests
 - Provides a simple operator interface
@@ -191,11 +188,18 @@ Potential applications include:
 
 ---
 
-##  Disclaimer
+##  **Disclaimer**
 
 This repository is provided for demonstration, documentation, and portfolio purposes.
 
 Production system configurations, credentials, API endpoints, network information, and other confidential industrial information have been excluded.
 
 The application may require modification before use with another AGV, RCS, or industrial environment.
+
+---
+
+<p align="center">
+  © 2026 Itmam Rubayet Annan — All Rights Reserved  
+</p>
+
 
