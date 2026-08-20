@@ -61,6 +61,33 @@ Crystal International group
 
 ## **System Architecture**
 
+flowchart TD
+
+    Operator["Operator / User"]
+    
+    App["AGV Calling App<br/>MIT App Inventor"]
+    
+    API["REST API<br/>JSON Request"]
+    
+    RCS["Robotic Control System<br/>(RCS)"]
+    
+    AGV["AGV Fleet"]
+    
+    Loading["Loading Area<br/>WS-01 ~ WS-06"]
+    
+    Transport["Automated Material<br/>Transportation"]
+    
+    Unloading["Unloading Area<br/>UL-01 ~ UL-03"]
+    
+    Operator --> App
+    App --> API
+    API --> RCS
+    RCS --> AGV
+    AGV --> Loading
+    Loading --> Transport
+    Transport --> Unloading
+    
+
 The application acts as an operator interface between the shop floor and the Robotic Control System.
 
   ┌─────────────────────┐
