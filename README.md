@@ -62,33 +62,45 @@ Crystal International group
 
 The application acts as an operator interface between the shop floor and the Robotic Control System.
 
-+-----------------------+
-|   Operator / User     |
-+-----------+-----------+
-            |
-            v
-+-----------------------+
-|   AGV Calling App     |
-|  MIT App Inventor     |
-+-----------+-----------+
-            |
-            | REST API / JSON
-            v
-+-----------------------+
-|    Robotic Control    |
-|       System (RCS)    |
-+-----------+-----------+
-            |
-            v
-+-----------------------+
-|     AGV Fleet         |
-+-----------+-----------+
-            |
-            v
-+-----------------------+
-| Material Transportation|
-|  Loading -> Unloading |
-+-----------------------+
+┌─────────────────────┐
+│   Operator / User   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────────────┐
+│      AGV Calling App        │
+│      MIT App Inventor       │
+└─────────────┬───────────────┘
+              │
+       REST API / JSON
+              │
+              ▼
+┌─────────────────────────────┐
+│  Robotic Control System     │
+│           (RCS)             │
+└─────────────┬───────────────┘
+              │
+        Task Assignment
+              │
+              ▼
+┌─────────────────────────────┐
+│          AGV Fleet          │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│       Loading Area          │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│  Material Transportation    │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│      Unloading Area         │
+└─────────────────────────────┘
 
 ---
 
