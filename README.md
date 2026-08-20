@@ -125,10 +125,10 @@ The basic workflow of the application is:
 ## **Task Logic**
 
 <p align="center">
-  <img src="docs/images/system_process_flow.png" alt="System Flow" width="75%" style="margin:25px;"/>
+  <img src="docs/images/Task Logic.png" alt="System Flow" width="75%" style="margin:25px;"/>
 </p>
 <p align="center">
-  <img src="docs/images/system_process_flow.png" alt="System Flow" width="75%" style="margin:25px;"/>
+  <img src="docs/images/Task Logic 2.png" alt="System Flow" width="75%" style="margin:25px;"/>
 </p>
 
 ---
